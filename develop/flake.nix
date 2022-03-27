@@ -11,6 +11,7 @@
   inputs.src-httpstat-develop.ref   = "refs/heads/develop";
   inputs.src-httpstat-develop.owner = "ucpr";
   inputs.src-httpstat-develop.repo  = "httpstat";
+  inputs.src-httpstat-develop.dir   = "";
   inputs.src-httpstat-develop.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
