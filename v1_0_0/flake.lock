@@ -39,10 +39,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-httpstat-master": "src-httpstat-master"
+        "src-httpstat-v1_0_0": "src-httpstat-v1_0_0"
       }
     },
-    "src-httpstat-master": {
+    "src-httpstat-v1_0_0": {
       "flake": false,
       "locked": {
         "lastModified": 1662803864,
@@ -54,7 +54,7 @@
       },
       "original": {
         "owner": "ucpr",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v1.0.0",
         "repo": "httpstat",
         "type": "github"
       }
